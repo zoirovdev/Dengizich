@@ -3,6 +3,9 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import SearchInput from './components/SearchInput.jsx'
+import Recent from './components/Recent.jsx'
+import Shared from './components/Shared.jsx'
+import Trash from './components/Trash.jsx'
 
 
 function App() {
@@ -12,6 +15,9 @@ function App() {
       <SearchInput />
       <Routes>
 	<Route path="/" element={<Home/>}/>
+	<Route path="/shared" element={<Shared/>}/>
+	<Route path="/recent" element={<Recent/>}/>
+	<Route path="/trash" element={<Trash/>}/>
       </Routes>
     </div>
   )
