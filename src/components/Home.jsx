@@ -1,10 +1,9 @@
-import SearchInput from './SearchInput.jsx'
 
 
 const Home = () => {
   return (
     <div className="mt-8">
-      <SearchInput/>
+      <h1>Home</h1>
     </div>
   )
 }
