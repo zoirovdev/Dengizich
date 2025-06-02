@@ -3,7 +3,7 @@
 
 const Sidebar = () => {
   return (
-    <div className="border-box float-left w-64 bg-white h-dvh">
+    <div className="float-left w-64 bg-white h-dvh border-r-2 border-cyan-50">
       <h1 className="font-mono text-xl mb-4 pl-8">Dengizich</h1>
       <ul className="">
 	<li className="flex flex-row gap-2 hover:bg-cyan-200 pl-8 py-2">
