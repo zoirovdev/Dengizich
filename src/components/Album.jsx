@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import AlbumCard from './AlbumCard.jsx'
 
 const Album = () => {
   const [albums, setAlbums] = useState([])
@@ -23,6 +24,7 @@ const Album = () => {
       {albums.map((album) => (
 	<div key={album.id} className="p-4">
 	  <p><strong>{album.title}</strong></p>
+	  <AlbumCard id={album.id}/>
 	</div>
       ))}
     </div>
