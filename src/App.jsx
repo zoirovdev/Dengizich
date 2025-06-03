@@ -4,7 +4,7 @@ import Home from './components/Home.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import SearchInput from './components/SearchInput.jsx'
 import Recent from './components/Recent.jsx'
-import Shared from './components/Shared.jsx'
+import Post from './components/Post.jsx'
 import Trash from './components/Trash.jsx'
 
 
@@ -15,7 +15,7 @@ function App() {
       <SearchInput />
       <Routes>
 	<Route path="/" element={<Home/>}/>
-	<Route path="/shared" element={<Shared/>}/>
+	<Route path="/posts" element={<Post/>}/>
 	<Route path="/recent" element={<Recent/>}/>
 	<Route path="/trash" element={<Trash/>}/>
       </Routes>
