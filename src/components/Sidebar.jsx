@@ -19,15 +19,9 @@ const Sidebar = () => {
 	  </Link>
 	</li>
 	<li className="hover:bg-slate-200 pl-8 py-2 cursor-pointer">
-	  <Link to="/album" className="flex flex-row gap-2 ">
-	    <img src="album.svg" alt="album" className="w-5"/>
-	    <p className="text-base">Album</p>
-	  </Link>
-	</li>
-	<li className="hover:bg-slate-200 pl-8 py-2 cursor-pointer">
-	  <Link to="/trash" className="flex flex-row gap-2 ">
-	    <img src="trash.svg" alt="trash" className="w-5"/>
-	    <p className="text-base">Trash</p>
+	  <Link to="/todos" className="flex flex-row gap-2 ">
+	    <img src="todo.svg" alt="todo" className="w-5"/>
+	    <p className="text-base">Todos</p>
 	  </Link>
 	</li>
       </ul>
