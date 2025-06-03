@@ -19,9 +19,9 @@ const Sidebar = () => {
 	  </Link>
 	</li>
 	<li className="hover:bg-cyan-200 pl-8 py-2 cursor-pointer">
-	  <Link to="/recent" className="flex flex-row gap-2 ">
-	    <img src="recent.svg" alt="recent" className="w-5"/>
-	    <p className="text-base">Recent</p>
+	  <Link to="/album" className="flex flex-row gap-2 ">
+	    <img src="album.svg" alt="album" className="w-5"/>
+	    <p className="text-base">Album</p>
 	  </Link>
 	</li>
 	<li className="hover:bg-cyan-200 pl-8 py-2 cursor-pointer">

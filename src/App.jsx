@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import SearchInput from './components/SearchInput.jsx'
-import Recent from './components/Recent.jsx'
+import Album from './components/Album.jsx'
 import Post from './components/Post.jsx'
 import Trash from './components/Trash.jsx'
 
@@ -16,7 +16,7 @@ function App() {
       <Routes>
 	<Route path="/" element={<Home/>}/>
 	<Route path="/posts" element={<Post/>}/>
-	<Route path="/recent" element={<Recent/>}/>
+	<Route path="/album" element={<Album/>}/>
 	<Route path="/trash" element={<Trash/>}/>
       </Routes>
     </div>
