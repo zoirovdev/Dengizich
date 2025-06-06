@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { UsersIcon } from '@heroicons/react/24/outline'
 
 
 const Sidebar = () => {
@@ -22,6 +23,12 @@ const Sidebar = () => {
 	  <Link to="/todos" className="flex flex-row gap-2 ">
 	    <img src="todo.svg" alt="todo" className="w-5"/>
 	    <p className="text-base">Todos</p>
+	  </Link>
+	</li>
+	<li className="hover:bg-slate-200 pl-8 py-2 cursor-pointer">
+	  <Link to="/users" className="flex flex-row gap-2">
+	    <UsersIcon className="w-5 h-5"/>
+	    <p className="text-base">Users</p>
 	  </Link>
 	</li>
       </ul>

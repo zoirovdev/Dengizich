@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar.jsx'
 import SearchInput from './components/SearchInput.jsx'
 import Post from './components/Post.jsx'
 import Todos from './components/Todos.jsx'
+import Users from './components/Users.jsx'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 	<Route path="/" element={<Home/>}/>
 	<Route path="/posts" element={<Post/>}/>
 	<Route path="/todos" element={<Todos/>}/>
+	<Route path="/users" element={<Users/>}/>
       </Routes>
     </div>
   )
