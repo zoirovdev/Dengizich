@@ -28,7 +28,10 @@ const PostDetail = () => {
 
   console.log(post)
   return (
-    <h1>hello</h1>
+    <div className="ml-[300px] mt-[40px] p-4 w-[600px] border border-slate-300 rounded-[5px]">
+      <p className="bg-gray-200 mb-4 p-2">{post.title}</p>
+      <p className="border-x border-slate-300 p-2">{post.body}</p>
+    </div>
   )
 }
 
