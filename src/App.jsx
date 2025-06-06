@@ -6,6 +6,7 @@ import SearchInput from './components/SearchInput.jsx'
 import Post from './components/Post.jsx'
 import Todos from './components/Todos.jsx'
 import Users from './components/Users.jsx'
+import PostDetail from './components/PostDetail.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 	<Route path="/posts" element={<Post/>}/>
 	<Route path="/todos" element={<Todos/>}/>
 	<Route path="/users" element={<Users/>}/>
+	<Route path="/posts/:id" element={<PostDetail/>}/>
       </Routes>
     </div>
   )
